@@ -1,0 +1,9 @@
+{% extends 'blog/base.html' %}
+
+
+{% block content %}
+    {% for cliente in clientes %}
+        <tr><h2><a href="">{{cliente}}</a></h2></tr>                
+    {% endfor %}   
+    <h2><a href="{% url 'Registro' %}">Registro</a></h2>          
+{% endblock %}
