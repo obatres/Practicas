@@ -17,6 +17,8 @@ from django.contrib import admin
 from django.urls import path, include
 
 urlpatterns = [
+    #Url que dirige a la administracion del sitio 
     path('admin/', admin.site.urls),
+    #Url que agrega todas las urls creadas en la app "blog"
     path('', include('blog.urls')),
 ]

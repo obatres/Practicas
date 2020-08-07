@@ -1,5 +1,7 @@
+# Area de importaciones de librerias
 from django.contrib import admin
 from .models import Cliente
-# Register your models here.
 
+
+# Registro del modelo Cliente 
 admin.site.register(Cliente)
