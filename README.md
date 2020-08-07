@@ -29,10 +29,10 @@ y dirigirse a la url 127.0.0.1:8000/ en el navegador predeterminado de la comput
 Se mostrara la pagina principal, que contiene a todos los clientes que contienen "201212734", y al final del listado se encuentra el acceso a la pagina de resgistro ubicado en la pagina principal con el texto "Registro", el cual despliega la pagina en donde se puede ingresar un nuevo cliente. 
 
 ## Historial de versiones
-*0.1.1
-  *Primera realese
-  *CAMBIO: Agregada la funcion de despliegue y registro de clientes
-*0.0.1
+* 0.1.1
+  * Primera realese
+  * CAMBIO: Agregada la funcion de despliegue y registro de clientes
+* 0.0.1
   * Trabajo en progreso
   * CAMBIO: Creado el sitio en Django
   
